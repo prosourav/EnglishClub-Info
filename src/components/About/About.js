@@ -20,7 +20,7 @@ const About = () => {
     fetch(url)
     .then(res=>res.json())
     .then(data=>setTeamDetails(data.teams[0]));
-  },[]);
+  },[id]);
   const {strTeam,strTeamBanner,strSport,strGender,strDescriptionEN,intFormedYear,strFacebook,strYoutube,strTwitter,strCountry} = teamDetails;
   let photo;
   if(strGender=="Female"){

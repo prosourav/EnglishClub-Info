@@ -16,7 +16,7 @@ const Home = () => {
        </div>
         <div className="home-teams">
           {
-              team.map(team=><Team data={team}></Team>)
+              team.map(team=><Team data={team} key={team.idTeam}></Team>)
           }
         </div>
         </div>
