@@ -1,0 +1,45 @@
+.section-1{
+    background-image: url(/src/Photos/pic/field.jpg);
+    background-position: center;
+    height: 345px;
+    /* align-self: stretch; */
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.section-1 img{
+    padding-top: 5%;
+    width: 70%;
+}
+.section-2{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 15px;
+    padding: 30px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: whitesmoke;
+    background: darkblue;
+}
+.part-two{
+    height: 13em;
+}
+.part-two img{
+    height: 260px;
+    width: 525px;
+    padding-left: 15%;
+}
+.section-3{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.main-section2{
+    background-color:rgb(1, 1, 60) ;
+    color: whitesmoke;
+}
+.logo{
+    width: 50px;
+}
+.logo2{
+    width: 20px;
+}
