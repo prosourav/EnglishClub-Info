@@ -14,7 +14,7 @@ const Home = () => {
         <div className="first-section">
         <h1>Welcome to English Club-Info</h1>
        </div>
-        <div>
+        <div className="home-teams">
           {
               team.map(team=><Team data={team}></Team>)
           }

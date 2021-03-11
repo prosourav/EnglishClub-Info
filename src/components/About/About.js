@@ -43,8 +43,7 @@ const About = () => {
              <h3>Founded:{intFormedYear}</h3>
              <h3>Country:{strCountry}</h3>
              <img className="logo2"src={gendersign} alt="" srcset=""/>
-             <h3>Gender:{strGender}</h3>
-             
+             <h3>Gender:{strGender}</h3>    
              <h3><img className="logo2"src={Sportstype} alt="" srcset=""/>  SportsType:{strSport}</h3>
              </div>
              <div className="part-two">

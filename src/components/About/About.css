@@ -43,3 +43,38 @@
 .logo2{
     width: 20px;
 }
+@media (max-width: 760px){
+    .section-2{
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid red;
+    margin-left: 0%;
+    width: 100%;
+    }
+    .main-section2{
+        padding: 12px;
+    }
+    .part-one{
+        width: 100%;
+    }
+    .part-one h3{
+        font-size: 15px;
+    }
+    .part-one h1{
+        font-size: 22px;
+    }
+    .part-two img{
+        width: 270px;
+        padding-left: 0;
+        height: 192px;
+    }
+    .section-3 p{
+        font-size: 12px;
+    }
+    .section-1 img {
+        padding-top: 20%;
+        height: 65%;
+        width: 80%;
+    }
+
+}
