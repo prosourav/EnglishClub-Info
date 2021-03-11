@@ -23,7 +23,7 @@ const About = () => {
   },[id]);
   const {strTeam,strTeamBanner,strSport,strGender,strDescriptionEN,intFormedYear,strFacebook,strYoutube,strTwitter,strCountry} = teamDetails;
   let photo;
-  if(strGender=="Female"){
+  if(strGender==="Female"){
        photo = female;
   }
   else{
@@ -33,18 +33,18 @@ const About = () => {
     return (
         <div className="main-section1">
         <div className="section-1">
-           <img src={strTeamBanner} alt="" srcset=""/>
+           <img src={strTeamBanner} alt="" />
         </div>
         <div className="main-section2">
             <div className="section-2">
              <div className="part-one">
              <h1>{strTeam}</h1>
-             <img className="logo2"src={founded} alt="" srcset=""/>
+             <img className="logo2"src={founded} alt="" />
              <h3>Founded:{intFormedYear}</h3>
              <h3>Country:{strCountry}</h3>
-             <img className="logo2"src={gendersign} alt="" srcset=""/>
+             <img className="logo2"src={gendersign} alt=""/ >
              <h3>Gender:{strGender}</h3>    
-             <h3><img className="logo2"src={Sportstype} alt="" srcset=""/>  SportsType:{strSport}</h3>
+             <h3><img className="logo2"src={Sportstype} alt="" />  SportsType:{strSport}</h3>
              </div>
              <div className="part-two">
              <img src={photo} alt=""/>
